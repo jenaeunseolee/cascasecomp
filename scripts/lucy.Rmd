@@ -1,0 +1,14 @@
+```{r setup}
+knitr::opts_knit$set(root.dir = "/home/rstudio/cascasecomp")
+library(readxl)
+```
+
+```{r}
+data <- read_excel("data/CAS cc data.xlsx")
+```
+
+```{r}
+dim(data)
+names(data)
+head(data)
+```
